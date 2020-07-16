@@ -1,0 +1,26 @@
+section article{
+	width: 300px;
+	height: 200px;
+	background-color: red;
+}
+
+@media screen and (min-width: 480px){
+	section article{
+		background-color: green;
+	}
+}
+
+@media screen and (min-width: 767px){
+	section article{
+		background-color: blue;
+	}
+}
+
+@media screen and (min-width: 950px){
+	section article{
+		background-color: orange;
+	}
+}
+
+
+

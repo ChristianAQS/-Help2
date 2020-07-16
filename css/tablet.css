@@ -1,0 +1,17 @@
+@media screen and (max-width: 1024px){
+	#menu_principal a {
+		padding: 10px 40px;
+	}
+	#menu_lateral{
+		display: none;
+	}
+	#contenido_central{
+		width: 100%;
+	}
+
+	table, p, figure, video{
+		display: block;
+		margin: 40px auto;
+		width: 90%;
+	}
+}

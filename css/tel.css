@@ -1,0 +1,34 @@
+@media screen and (max-width: 480px;){
+	#menu_principal{
+		position: absolute;
+		top: -130px;
+		width: 100%;
+		min-width: 480px;
+	}
+
+	#menu_principal a{
+		display: block;
+		color: #ffff;
+	}
+	#menu_principal, #desplegar_menu{
+		display: block;
+		padding: 0px;
+		border: 0px;
+		font: bold 2rem verdana, arial;
+	}
+	#menu_principal a:hover:not(#desplegar_menu){
+		border-color: #fff;
+		background-color: rgba(0,0,0,0.5);
+	}
+
+/*-----animaciones------*/
+
+	#menu_principal{
+		-webkit-transition: all .4s ease-in-out;
+		-o-transition: all  .4s ease-in-out;
+		-ms-transition: all .4s ease-in-out;
+		-moz-transition: all .4s ease-in-out;
+		transition: all  .4s ease-in-out;
+	}
+
+}
